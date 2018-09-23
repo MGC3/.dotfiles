@@ -1,0 +1,3 @@
+(sleep 2s && sh ~/.fehbg) &
+~/.screenlayout/main-34-portrait-24.sh &
+(sleep 5s && xrdb ~/.Xresources) &
