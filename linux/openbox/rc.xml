@@ -251,7 +251,7 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="A-F4">
+    <keybind key="W-w">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
@@ -340,7 +340,7 @@
         <command>scrot</command>
       </action>
     </keybind>
-    <keybind key="C-S-t">
+    <keybind key="W-t">
       <action name="Execute">
         <command>rxvt-unicode</command>
       </action>
