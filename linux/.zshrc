@@ -6,6 +6,8 @@
 
 # Export PATH for Go lang
 export PATH=$PATH:/usr/local/go/bin
+export GOPATH="$HOME/go"
+PATH="$GOPATH/bin:$PATH"
 
 # NVM stuff
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
@@ -25,6 +27,7 @@ alias cautostart="vim ~/.config/openbox/autostart"
 alias cxresources="vim ~/.Xresources"
 alias czsh="vim ~/.zshrc"
 alias cbash="vim ~/.bashrc"
+alias cprofile="vim ~/.profile"
 alias cbackup="
 cp -u ~/.config/openbox/rc.xml ~/Development/.dotfiles/linux/openbox;
 cp -u ~/.config/openbox/autostart ~/Development/.dotfiles/linux/openbox;
@@ -32,6 +35,7 @@ cp -u ~/.Xresources ~/Development/.dotfiles/linux;
 cp -u ~/.config/nvim/init.vim ~/Development/.dotfiles/linux;
 cp -u ~/.zshrc ~/Development/.dotfiles/linux;
 cp -u ~/.bashrc ~/Development/.dotfiles/linux;
+cp -u ~/.profile ~/Development/.dotfiles/linux;
 echo dotfiles backup complete!;
 "
 
