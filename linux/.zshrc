@@ -28,6 +28,7 @@ alias cxresources="vim ~/.Xresources"
 alias czsh="vim ~/.zshrc"
 alias cbash="vim ~/.bashrc"
 alias cprofile="vim ~/.profile"
+alias cbackground="vim ~/.fehbg"
 alias cbackup="
 cp -u ~/.config/openbox/rc.xml ~/Development/.dotfiles/linux/openbox;
 cp -u ~/.config/openbox/autostart ~/Development/.dotfiles/linux/openbox;
@@ -36,6 +37,7 @@ cp -u ~/.config/nvim/init.vim ~/Development/.dotfiles/linux;
 cp -u ~/.zshrc ~/Development/.dotfiles/linux;
 cp -u ~/.bashrc ~/Development/.dotfiles/linux;
 cp -u ~/.profile ~/Development/.dotfiles/linux;
+cp -u ~/.fehbg ~/Development/.dotfiles/linux;
 echo dotfiles backup complete!;
 "
 
