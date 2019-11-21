@@ -32,3 +32,8 @@ export PATH=/usr/local/bin:$PATH
 ### NVM stuff
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
+
+# Rbenv stuff
+# if which rbenv > /dev/null; then
+# eval "$(rbenv init -)"
+# fi
