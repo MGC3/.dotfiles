@@ -9,6 +9,7 @@ alias dropbox="cd ~/Dropbox/Developement"
 alias c="clear"
 alias vs="code"
 alias pf="ps aux | grep $1"
+alias k="kubectl"
 
 alias g="git status"
 alias gl="git log --pretty=oneline --abbrev-commit"
@@ -25,6 +26,14 @@ alias cprofile="vim ~/.zshrc"
 # Search man pages and jump to specific flag
 # eg. `manswitch tar '-f'`
 function manswitch() { man -P "less -p \"^ +$2\"" $1 }
+
+### Go stuff
+PATH=$PATH:$HOME/bin
+export GOROOT="/home/mchun/.gimme/versions/go1.14.1.linux.amd64"
+export GIMME_ENV="/home/mchun/.gimme/envs/go1.14.1.env"
+export GOPATH="/home/mchun/source/go"
+export PATH="${GOROOT}/bin:${GOPATH}/bin:${PATH}"
+export PATH=$PATH:/usr/local/go/bin 
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
